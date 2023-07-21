@@ -6,12 +6,12 @@ name: Pytest
 on:
   push:
     branches:
-      - main  # Replace 'main' with your default branch name
+      - main  
 
 jobs:
   test:
     name: Run Pytest
-    runs-on: ubuntu-latest  # You can choose a different runner, if needed
+    runs-on: ubuntu-latest  
 
     steps:
     - name: Checkout code
@@ -20,7 +20,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
-        python-version: 3.x  # Replace 'x' with your desired Python version
+        python-version: 3.10 
 
     - name: Run pytest
       run: pytest
