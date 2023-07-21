@@ -18,7 +18,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
+    - name: check out repository code
+      uses: actions/checkout@v3
+      
     - name: Set up Python 3.10
       uses: actions/setup-python@v3
       with:
@@ -35,5 +37,5 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
     - name: run pytest
-      run: |
+      run: 
         pytest
