@@ -1,0 +1,18 @@
+insert into public.buildings (id, name, building_type, n_floors, n_classrooms, n_labs, geom, building_id, image_url)
+values  (1, 'Kumapley Engineering Auditorium', 'Auditorium', 2, 0, 0, '0101000020767F0000DB39353389192441D443081CF6832641', 1, ''),
+        (4, 'Ceasar Building', 'Storey', 5, 3, 8, '0101000020767F0000AD1124EB3D19244187E2BF9829842641', 4, ''),
+        (5, 'Wascal Building 1', 'Block', 2, 0, 0, '0101000020767F00008FA6061E1D19244192EFC138B2832641', 5, ''),
+        (6, 'Wascal Building 2', 'Block', 1, 0, 0, '0101000020767F000063F1E47EE9182441D4E99A77A7832641', 6, ''),
+        (2, 'New Engineering Building', 'Storey', 4, 5, 0, '0101000020767F0000F7CEA19B041A2441B51489BC09842641', 2, ''),
+        (3, 'Petroleum Building', 'Storey', 5, 9, 4, '0101000020767F000048C5916CFE1924413F3B21CC93842641', 3, ''),
+        (7, 'Bamfo Kwakye Building', 'Storey', 4, 3, 0, '0101000020767F00005ECD46DA35192441F71B462495842641', 7, ''),
+        (8, 'Kwame Building', 'Storey', 2, 4, 0, '0101000020767F0000CC7C41B85E19244172DA0A2BF2842641', 8, ''),
+        (9, 'Engineering Tent', 'Block', 0, 0, 0, '0101000020767F0000CAA7F4170F1A2441423C8590E9842641', 9, ''),
+        (10, 'Engineering Labs 1', 'Block', 0, 0, 13, '0101000020767F00008A74208C7D18244104580209BC832641', 10, ''),
+        (11, 'Engineering Technology Labs', 'Block', 0, 0, 12, '0101000020767F00007FC42EB1DB172441B201D625DA832641', 11, ''),
+        (12, 'Engineering Labs 2', 'Block', 0, 0, 5, '0101000020767F00006B198A088B172441A5B7D153C7832641', 12, ''),
+        (13, 'Renewable Energy Research Center', 'Block', 0, 0, 1, '0101000020767F00009DB70FA39317244188993D025F832641', 13, ''),
+        (14, 'Innovation Center', 'Storey', 2, 0, 4, '0101000020767F00006D82A35E1B1924410484192DC2842641', 14, ''),
+        (15, 'Faculty of Social Sciences New Building Block C', 'Storey', 6, 27, 0, '0101000020767F000085D133EB3C172441A5D7692B877E2641', 15, ''),
+        (16, 'Engineering N Block', 'Block', 1, 2, 0, '0101000020767F00002BDA97B807192441E280C9726F852641', 16, ''),
+        (17, 'Faculty of Social Sciences New Building Block A', 'Storey', 4, 2, 0, '0101000020767F0000273D2868351724415AA77486907F2641', 17, '');
